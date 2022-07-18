@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "toptechaks-41ed"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "toptechaks-41ed"
+  template:
+    metadata:
+      labels:
+        app: "toptechaks-41ed"
+    spec:
+      containers:
+        - name: "toptechaks-41ed"
+          image: "toptechregistry.azurecr.io/toptechaks"
+          ports:
+          - containerPort: 80
