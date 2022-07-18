@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-07-18T10:58:30.7182191Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-07-18T10:58:45.8645271Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "51591756-206f-4256-a393-b03961eea6d3"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "TopTech-res"
+    }
+  }
+}
